@@ -1,0 +1,24 @@
+{
+    "name": "libcbv2g",
+    "version": "1.0.0",
+    "description": "TBD",
+    "includeDir": "include",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/Tinkerforge/libcbv2g"
+    },
+    "export": {
+        "include": [
+            "lib/cbv2g/exi_v2gtp.c",
+            "lib/cbv2g/app_handshake/*.c",
+            "lib/cbv2g/common/*.c",
+            "lib/cbv2g/din/*.c",
+            "lib/cbv2g/iso_2/*.c",
+            "lib/cbv2g/iso_20/*.c"
+        ]
+    },
+    "license": "Apache 2.0",
+    "frameworks": "*",
+    "platforms": "*"
+}
